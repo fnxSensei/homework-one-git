@@ -71,11 +71,11 @@ public class Homework4 {
                 System.out.println("Число больше " + middle + "?");
                 answer=scanner.nextInt();
                 if (answer==0){
-                    max=middle;
-                    continue;
+                    max=middle-1;
+                    //continue;
                 } else if  (answer==1) {
-                    min = middle;
-                    continue;
+                    min = middle+1;
+                    //continue;
                 }
             }
             else if (answer==1) {
